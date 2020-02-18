@@ -1,3 +1,9 @@
+enum OptionalEnum {
+  ONE,
+  TWO,
+  THREE,
+}
+
 export class HelloResponseDto {
-  public optionalProperty?: string;
+  public optionalProperty?: OptionalEnum;
 }

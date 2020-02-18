@@ -6,6 +6,6 @@ export class AppController {
 
   @Get()
   public async getHello(): Promise<HelloResponseDto> {
-    return { optionalProperty: 'optionalProperty' };
+    return {  };
   }
 }
