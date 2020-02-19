@@ -1,9 +1,7 @@
-enum OptionalEnum {
-  ONE,
-  TWO,
-  THREE,
+export class OptionalNestedDto {
+  prop: string;
 }
 
 export class HelloResponseDto {
-  public optionalProperty?: OptionalEnum;
+  public optionalProperty?: OptionalNestedDto;
 }
