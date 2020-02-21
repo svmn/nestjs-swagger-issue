@@ -1,11 +1,7 @@
-export class OptionalNestedDto {
-  prop: OptionalEnum;
-}
-
-export enum OptionalEnum {
-  ZERO
+export enum SingleEnum {
+  ZERO,
 }
 
 export class HelloResponseDto {
-  public optionalProperty?: OptionalNestedDto[];
+  public prop: SingleEnum;
 }
