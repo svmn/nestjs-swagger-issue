@@ -1,7 +1,7 @@
-export enum SingleEnum {
-  ZERO,
+export class NestedDto {
+  something: string;
 }
 
 export class HelloResponseDto {
-  public prop: SingleEnum;
+  public prop?: NestedDto;
 }
